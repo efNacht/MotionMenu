@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: 7,
     title: "ДЭНАС-Остео Про",
-    image: "/assets/products/denas-osteo-pro.jpg",
+    image: "/img/denas-osteo-pro.jpg",
     description:
       "Предназначен для стимуляции рефлексогенных зон на задней поверхности шеи с лечебной и профилактической целью.",
     features: [
@@ -140,7 +140,7 @@ export const products: Product[] = [
   {
     id: 8,
     title: "Кабель для ДЭНАС-Аппликаторов",
-    image: "/assets/products/denas-cable.jpg",
+    image: "/img/denas-cable.jpg",
     description:
       "С помощью кабеля выносные электроды «ДЭНАС-Аппликаторы» подключаются к аппаратам ДЭНАС-ПКМ моделей 2013-го и 2016-го года.",
     features: [
