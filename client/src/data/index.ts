@@ -24,7 +24,7 @@ export const products: Product[] = [
   {
     id: 1,
     title: "ДЭНАС ПКМ Про",
-    image: "https://images.unsplash.com/photo-1612865547334-09cb8cb9c250?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-pkm-pro.jpg",
     description:
       "Универсальный чрескожный электростимулятор предназначен для ДЭНС-терапии в широком диапазоне частот с возможностью применения предустановленных автоматизированных программ или подбора индивидуальной программы лечения.",
     features: [
@@ -41,7 +41,7 @@ export const products: Product[] = [
   {
     id: 2,
     title: "ДЭНАС-аппликаторы",
-    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-applicators.jpg",
     description:
       "Выносные электроды выполнены из гипоаллергенного эластичного материала с токопроводящим наполнителем и применяются в качестве альтернативы встроенным электродам аппаратов для ДЭНС-терапии.",
     features: [
@@ -57,7 +57,7 @@ export const products: Product[] = [
   {
     id: 3,
     title: "ДЭНАС Кардио Мини",
-    image: "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-cardio-mini.jpg",
     description:
       "Предназначен для снижения артериального давления, профилактики артериальной гипертензии и нормализации общего состояния организма. Портативность и автономное питание не требует специальных условий для проведения процедур.",
     features: [
@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     id: 4,
     title: "ДЭНАС-Орто",
-    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-orto.jpg",
     description:
       "Компактный помощник для вашей спины. Предназначен для воздействия на рефлексогенные зоны пояснично-крестцовой области с лечебной и профилактической целью.",
     features: [
@@ -90,7 +90,7 @@ export const products: Product[] = [
   {
     id: 5,
     title: "ДЭНАС-очки",
-    image: "https://images.unsplash.com/photo-1577744168855-0391d2ed2b3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-glasses.jpg",
     description:
       "Выносной электрод для воздействия на зону вокруг глаз (параорбитальная зона), подключаемый к универсальным аппаратам для динамической электронейростимуляции.",
     features: [
@@ -107,7 +107,7 @@ export const products: Product[] = [
   {
     id: 6,
     title: "Ладос",
-    image: "https://images.unsplash.com/photo-1576671414121-aa0c80c2b3b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/lados.jpg",
     description:
       "Физиотерапевтический аппарат для лечения острой и хронической боли. Компактный, простой в управлении, высокоэффективный. Имеет три режима работы.",
     features: [
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: 7,
     title: "ДЭНАС-Остео Про",
-    image: "https://images.unsplash.com/photo-1576091160713-a2f898a7c7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-osteo-pro.jpg",
     description:
       "Предназначен для стимуляции рефлексогенных зон на задней поверхности шеи с лечебной и профилактической целью.",
     features: [
@@ -140,7 +140,7 @@ export const products: Product[] = [
   {
     id: 8,
     title: "Кабель для ДЭНАС-Аппликаторов",
-    image: "https://images.unsplash.com/photo-1633174524827-db00a6b7bc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+    image: "/assets/products/denas-cable.jpg",
     description:
       "С помощью кабеля выносные электроды «ДЭНАС-Аппликаторы» подключаются к аппаратам ДЭНАС-ПКМ моделей 2013-го и 2016-го года.",
     features: [
