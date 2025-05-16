@@ -24,7 +24,7 @@ export const products: Product[] = [
   {
     id: 1,
     title: "ДЭНАС ПКМ Про",
-    image: "/assets/products/denas-pkm-pro.jpg",
+    image: "/img/denas-pkm-pro.jpg",
     description:
       "Универсальный чрескожный электростимулятор предназначен для ДЭНС-терапии в широком диапазоне частот с возможностью применения предустановленных автоматизированных программ или подбора индивидуальной программы лечения.",
     features: [
@@ -41,7 +41,7 @@ export const products: Product[] = [
   {
     id: 2,
     title: "ДЭНАС-аппликаторы",
-    image: "/assets/products/denas-applicators.jpg",
+    image: "/img/denas-applicators.jpg",
     description:
       "Выносные электроды выполнены из гипоаллергенного эластичного материала с токопроводящим наполнителем и применяются в качестве альтернативы встроенным электродам аппаратов для ДЭНС-терапии.",
     features: [
@@ -57,7 +57,7 @@ export const products: Product[] = [
   {
     id: 3,
     title: "ДЭНАС Кардио Мини",
-    image: "/assets/products/denas-cardio-mini.jpg",
+    image: "/img/denas-cardio-mini.jpg",
     description:
       "Предназначен для снижения артериального давления, профилактики артериальной гипертензии и нормализации общего состояния организма. Портативность и автономное питание не требует специальных условий для проведения процедур.",
     features: [
@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     id: 4,
     title: "ДЭНАС-Орто",
-    image: "/assets/products/denas-orto.jpg",
+    image: "/img/denas-orto.jpg",
     description:
       "Компактный помощник для вашей спины. Предназначен для воздействия на рефлексогенные зоны пояснично-крестцовой области с лечебной и профилактической целью.",
     features: [
@@ -90,7 +90,7 @@ export const products: Product[] = [
   {
     id: 5,
     title: "ДЭНАС-очки",
-    image: "/assets/products/denas-glasses.jpg",
+    image: "/img/denas-glasses.jpg",
     description:
       "Выносной электрод для воздействия на зону вокруг глаз (параорбитальная зона), подключаемый к универсальным аппаратам для динамической электронейростимуляции.",
     features: [
@@ -107,7 +107,7 @@ export const products: Product[] = [
   {
     id: 6,
     title: "Ладос",
-    image: "/assets/products/lados.jpg",
+    image: "/img/lados.jpg",
     description:
       "Физиотерапевтический аппарат для лечения острой и хронической боли. Компактный, простой в управлении, высокоэффективный. Имеет три режима работы.",
     features: [
