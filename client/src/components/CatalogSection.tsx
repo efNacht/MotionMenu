@@ -97,14 +97,26 @@ const CatalogSection = () => {
             {filteredProducts.map((product) => (
               <motion.div
                 key={product.id}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 relative group cursor-pointer"
                 layout
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.3 }}
                 whileHover={{ y: -5 }}
+                onClick={() => openModal(product.id)}
               >
+                <div 
+                  className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 z-10"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    window.location.href = product.buyUrl;
+                  }}
+                >
+                  <div className="absolute top-2 right-2 bg-primary-600 text-white text-xs py-1 px-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Купить сейчас
+                  </div>
+                </div>
                 <img
                   src={product.image}
                   alt={product.title}
@@ -116,8 +128,11 @@ const CatalogSection = () => {
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-500">{product.category}</span>
                     <button
-                      className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors"
-                      onClick={() => openModal(product.id)}
+                      className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors z-20 relative"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openModal(product.id);
+                      }}
                     >
                       Подробнее
                     </button>
