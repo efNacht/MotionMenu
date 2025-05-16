@@ -35,7 +35,7 @@ export const products: Product[] = [
       "26 лечебных экспресс-программ"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1001072999098&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Основные устройства"
   },
   {
@@ -51,7 +51,7 @@ export const products: Product[] = [
       "Гипоаллергенные материалы"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1000370399604&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Аксессуары"
   },
   {
@@ -68,7 +68,7 @@ export const products: Product[] = [
       "Усовершенствованные программы лечения и современный дизайн"
     ],
     buyUrl:
-      "http://faberlic.com/index.php?option=com_catalog&view=goods&id=1001083184720&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Основные устройства"
   },
   {
@@ -84,7 +84,7 @@ export const products: Product[] = [
       "Курсовое лечение заболеваний сосудов нижних конечностей"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1001118873434&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Основные устройства"
   },
   {
@@ -101,7 +101,7 @@ export const products: Product[] = [
       "Выполнены из инновационного гипоаллергенного эластичного материала с токопроводящим наполнителем"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1000370399608&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Аксессуары"
   },
   {
@@ -118,7 +118,7 @@ export const products: Product[] = [
       "Восстанавливает подвижность суставов"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1000660571829&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Основные устройства"
   },
   {
@@ -134,7 +134,7 @@ export const products: Product[] = [
       "Устраняет симптомы метеочувствительности (ухудшение самочувствия, слабость)"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1001139056746&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Основные устройства"
   },
   {
@@ -148,7 +148,7 @@ export const products: Product[] = [
       "Кабель может приобретаться отдельно в случае неисправности"
     ],
     buyUrl:
-      "https://faberlic.com/index.php?option=com_catalog&view=goods&id=1000491718097&idcategory=1000180022520&Itemid=2075&lang=ru",
+      "#купить",
     category: "Аксессуары"
   }
 ];

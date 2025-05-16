@@ -203,9 +203,8 @@ const ContactSection = () => {
               <div className="flex items-start">
                 <MapPin className="text-primary-500 mr-3 flex-shrink-0 mt-1 h-5 w-5" />
                 <div>
-                  <h4 className="font-medium text-gray-900">Адрес</h4>
-                  <p className="text-gray-600">г. Москва, ул. Примерная, д. 123</p>
-                  <p className="text-gray-600">Офис работает: Пн-Пт с 9:00 до 18:00</p>
+                  <h4 className="font-medium text-gray-900">Режим работы</h4>
+                  <p className="text-gray-600">Пн-Пт с 9:00 до 18:00</p>
                 </div>
               </div>
             </div>
